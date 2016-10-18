@@ -11,7 +11,7 @@ Push a new branch to remote repository: git push --set-upstream origin <branchna
 push new change to a branch: git push 
 Push all branches to your remote repository: git push --all origin
 
-redo a commit before: git reflog
+redo a commit before: git reflog or git log
 		    : git reset --hard <commit>
 
 - you can replace the changes in your working tree with the last content in head,	
@@ -20,3 +20,12 @@ Changes already added to the index, as well as new files, will be kept: git chec
 - to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this:	
 	:git fetch origin
 	:git reset --hard <branchname>
+merge with a branch: git merge <branchname>
+		     git push
+
+1. git clone username@host:/path/to/repository
+2. git add <filename>
+3. git commit -am "yourcomment"
+4. git checkout -b <branchname>
+5. git push --set-upstream origin <branchname> ( new branch)
+6. git push
