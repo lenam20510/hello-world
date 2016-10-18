@@ -1,7 +1,7 @@
 class simple{
 	public static void main() {
 
-	system.println("nam");
+	system.println("nam xau xi");
 	}
 
 }
