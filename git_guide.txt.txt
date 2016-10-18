@@ -20,8 +20,11 @@ Changes already added to the index, as well as new files, will be kept: git chec
 - to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this:	
 	:git fetch origin
 	:git reset --hard <branchname>
-merge with a branch: git merge <branchname>
+- merge with a branch: git merge <branchname>
 		     git push
+
+- git log -p -2
+  git log --stat
 
 1. git clone username@host:/path/to/repository
 2. git add <filename>
